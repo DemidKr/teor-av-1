@@ -410,7 +410,7 @@ function App() {
                     {finalNumResult}
                 </Wrapper>
                 <Wrapper>
-                    {wordNumResult}
+                    {wordNumResult.split("").reverse().join("")}
                 </Wrapper>
             </div> : null}
             {finalWordResult !== 0 ? <div>
